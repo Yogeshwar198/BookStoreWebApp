@@ -16,7 +16,7 @@ function Login() {
             email: data.email,
             password: data.password,
         }
-        await axios.post("https://bookstorewebapp-backend.onrender.com", userInfo)
+        await axios.post("https://bookstorewebapp-backend.onrender.com/login", userInfo)
             .then((res) => {
                 console.log(res.data);
                 if (res.data) {
