@@ -1,0 +1,29 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "mern project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yogeshwar198/BookStoreWebApp.git"
+  },
+  "author": "Yogeshwar Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yogeshwar198/BookStoreWebApp/issues"
+  },
+  "homepage": "https://github.com/Yogeshwar198/BookStoreWebApp#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.2"
+  }
+}
